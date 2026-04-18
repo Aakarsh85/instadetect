@@ -16,7 +16,7 @@
    1. CONFIG
    ═══════════════════════════════════════════════════════════════ */
 const CONFIG = Object.freeze({
-  API_BASE:       window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'? 'http://127.0.0.1:5000/api':'render_backend_url',
+  API_BASE:       window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'? 'http://127.0.0.1:5000/api':'https://instadetect.onrender.com/',
   PREDICT_PATH:   "/predict",
   HEALTH_PATH:    "/health",
   TOAST_DURATION: 4500,   // ms
